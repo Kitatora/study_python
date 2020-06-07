@@ -11,7 +11,7 @@ print(str(a[0]) + str(a[1]) + str(a[2]) + str(a[3]))
 
 while True :
     #Lesson 5-4のプログラム。4桁の数字かどうかを判定
-    isok = False
+    isok = False 
     while isok == False:
         b = input("数を入れてください>")
         if len(b)!= 4:

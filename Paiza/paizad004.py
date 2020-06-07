@@ -2,10 +2,10 @@
 # 自分の得意な言語で
 # Let's チャレンジ！！
 
-input_line = input()
-for word in input_line.readlines():
-    print(",".join(word.rstrip()))
+n = int(input()) #input情報が複数行の場合：input関数の"度に"上から順にinputされる
+s = []
+for i in range(n):
+    s.append(input())
+print(s)
+print("Hello " + ",".join(s) + ".")
 
-#実行結果：期待する結果にならず
-#P,a,i,z,a
-#G,i,n,o
