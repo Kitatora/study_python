@@ -13,9 +13,9 @@ f_obj = open("test.txt","w")
 print("python-izm.com", file = f_obj)
 
 #フォーマット出力。文字列、数値などを交えて出力を行ってみる。
-print("Pythonの学習サイト: %s % "Python-izm.com")
-print("Pythonの学習サイト : %s-%s.%s" % ("python", "izm", "com"))
+print("Pythonの学習サイト: %s" % "Python-izm.com")
+print("Pythonの学習サイト: %s-%s.%s" % ("python", "izm", "com"))
 
-test int = 100 + 100
+test_int = 100 + 100
 test_str = "python-ism.com"
-print("サイト回折 %"d1日目! %s" % (test_int, test_str))
+print("サイト回折 %d 日目! %s" % (test_int, test_str))
