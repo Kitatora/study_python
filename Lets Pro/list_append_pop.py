@@ -20,3 +20,13 @@ print(addlist)
 # kantoulist に addlist の要素を追加する
 kantoulist[len(kantoulist):len(kantoulist)] = addlist #len()の値は"4"。なのでリスト番号4（16行時点ではブランク）にaddlistが追加される
 print(kantoulist)
+
+list1 = ["a", "b", "c"]
+list1.extend(["d", "e"])
+print(list1)
+#["a", "b", "c", "d", "e"]
+
+list2 = ["a", "b", "c"]
+list2.append(["d","e"])
+print(list2)
+#["a", "b", "c", ["d", "e"]]
