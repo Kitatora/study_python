@@ -1,5 +1,5 @@
 #encoding=utf-8
-
+input = 10, 20
 a,b = input().split()
 if int(a) == int(b):
     print('eq')

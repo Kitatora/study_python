@@ -54,17 +54,17 @@ a = [random.randint(0, 9),
 root = tk.Tk()
 root.geometry("600x400")
 root.title("数当てゲーム")
-root.configure(bg = "black")#ウィンドウを作る
+root.configure(bg = "white")#ウィンドウを作る
 
 #履歴表示のテキストボックスを作る
 rirekibox = tk.Text(root, font = ("Meiryo UI", 14))
 rirekibox.place(x=400, y=0, width=200, height=270)
-rirekibox.configure(bg = "black", highlightthickness=1, highlightbackground="white")
+rirekibox.configure(bg = "white", borderwidth = 10, highlightbackground = "black")
 
 #勝敗を表示するテキストボックス2を作る
 resultbox = tk.Text(root, font = ("Meiryo UI", 14))
 resultbox.place(x=0, y=270, width=600, height=130)
-resultbox.configure(bg = "black", highlightthickness=1, highlightbackground="white")
+resultbox.configure(bg = "white", highlightthickness=1, highlightbackground="black")
 
 #ラベルを作る
 label1 = tk.Label(root, text="数を入力してください", font=("Meiryo UI", 14)) #文章を入れる

@@ -1,10 +1,11 @@
 def samplefunc():
     print("This is sample")
+    return 123 #returnの後には"戻り値"。returnおよび戻り値はあってもなくても良い
 
-samplefunc()
-samplefunc()
-val = samplefunc()
-print(val) #引数が無いのでNoneを返す？
+samplefunc() #①samplefunc関数を実行
+samplefunc() #②6行目のsamplefunc関数を実行
+val = samplefunc() #③
+#print(val) #returnが無いのでNoneを返す？ print関数：def内のreturnを返す
 
 
 
