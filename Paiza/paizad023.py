@@ -5,3 +5,5 @@
 s = input()
 As = s.count("A")
 print(As)
+
+#変更
