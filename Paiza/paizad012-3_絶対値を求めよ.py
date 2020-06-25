@@ -1,3 +1,5 @@
+#encoding:utf-8
+
 def absolute_test(x):
     if x >= 0:
         return print(x)

@@ -2,7 +2,7 @@
 # 自分の得意な言語で
 # Let's チャレンジ！！
 
-n = int(input()) #input情報が複数行の場合：input関数の"度に"上から順にinputされる
+n = int(input()) #input情報が複数行の場合：input関数を実行する"度に"上から順にinputされる
 s = [Hello, I]
 for i in range(n):
     s.append(input())
