@@ -1,4 +1,5 @@
 #encoding:utf-8
+#サンプルサイトコピペ
 """
 BMI ボディマス指数計算
 """
@@ -6,10 +7,10 @@ from tkinter import *
 
 
 class App(Frame):
-    """tkinterのFrameクラスを継承して作成"""
+    #"""tkinterのFrameクラスを継承して作成"""
 
     def __init__(self, master=None):
-        """コンストラクタ"""
+        #"""コンストラクタ"""
         # Frameクラスのコンストラクタを呼び
         super().__init__(master, padx=10, pady=10)
         # root（masterはrootを代入）にpackして配置
@@ -133,7 +134,7 @@ class App(Frame):
             self.var1.set("ZeroDivisionError\n0で割れません\n")
 
     def clear(self):
-        """リセットボタンが押されたら発動"""
+        #"""リセットボタンが押されたら発動"""
         self.img["file"] = "img/1.png"
         self.lab7["image"] = self.img
         self.var1.set(self.initial)
