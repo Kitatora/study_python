@@ -10,3 +10,9 @@ for i in range(n):
 cal = sum(l)
 print(cal)
 
+#Option-1
+n = int(input())
+total = 0
+for i in range(n):
+    total += n - i
+print(total)

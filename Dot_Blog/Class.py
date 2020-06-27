@@ -5,7 +5,7 @@ class NameCheck:
     def __init__(self, text):
         self.text = text #self.textをインスタンス変数と言う
         print(self.text)
-        self.length = 0　#インスタンス変数lengthを宣言
+        self.length = 0 #インスタンス変数lengthを宣言
         test = 10
     #インスタンス変数は同一クラス内で共有が可能
 
