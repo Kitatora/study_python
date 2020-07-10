@@ -20,6 +20,8 @@ l = []
 #     r = input()
 #     if str(n) not in r:
 #         print(r)
+#     else:
+#         print("none")      
 
 #Option-2
 for i in range(2, m+2):
