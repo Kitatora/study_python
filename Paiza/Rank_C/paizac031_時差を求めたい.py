@@ -30,7 +30,8 @@ li = []
 for i in range(n):
     li.append(list(map(str, input().split())))
 
-print(li)
+
+
 a, b = input().split()
 print(a)
 print(b)
